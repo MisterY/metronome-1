@@ -122,7 +122,7 @@ var metronome = function (opts) {
                 html: "<span>tempo: </span>" +
                 "<input class='metr_input' type='text' id='tempo' value='100' />" +
                 "<span>ticks: </span>" +
-                "<input class='metr_input' type='text' id='ticks' value='8' />" +
+                "<input class='metr_input' type='text' id='ticks' value='20' />" +
                 "<button id='startstop'>start</button>" +
                 "<div id='count'>0</div>"
             }).appendTo(el);
