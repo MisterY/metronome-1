@@ -135,8 +135,8 @@ var metronome = function (opts) {
                     //get values for tempo and ticks and restrict
                     var tempo = parseInt($('#tempo').val(), 10);
                     if (!tempo) { tempo = 60; }
-                    else if (tempo > 200) { tempo = 200; }
-                    else if (tempo < 30) { tempo = 30; }
+                    else if (tempo > 400) { tempo = 400; }
+                    else if (tempo < 20) { tempo = 20; }
                     $("#tempo").val(tempo);
 
                     var ticks = parseInt($('#ticks').val(), 10);
