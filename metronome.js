@@ -120,9 +120,9 @@ var metronome = function (opts) {
         make_input: function (el) {
             $("<div />", {
                 html: "<span>tempo: </span>" +
-                "<input class='metr_input' type='text' id='tempo' value='100' />" +
+                "<input class='metr_input' type='text' id='tempo' value='30' />" +
                 "<span>ticks: </span>" +
-                "<input class='metr_input' type='text' id='ticks' value='20' />" +
+                "<input class='metr_input' type='text' id='ticks' value='100' />" +
                 "<button id='startstop'>start</button>" +
                 "<div id='count'>0</div>"
             }).appendTo(el);
